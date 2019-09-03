@@ -21,12 +21,14 @@ def getAnswer(answerNumber):
     elif answerNumber == 9:
         return 'Very Doubtful'
 
+#screen clear function
 def screen_clear():
     if name =='nt':
         _ = system('cls')
     else:
         _ = system('clear')
 
+#Beginning of program
 screen_clear()
 print('The Magic 8 Ball is ready to give you your fortune:')
 r = random.randint(1, 9)
